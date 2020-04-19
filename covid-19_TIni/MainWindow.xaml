@@ -1,0 +1,13 @@
+﻿<Window x:Class="covid_19_TIni.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:covid_19_TIni"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="Btn_CaricaLista" Content="Carica" HorizontalAlignment="Left" Margin="56,78,0,0" VerticalAlignment="Top" Width="68" Click="Btn_CaricaLista_Click"/>
+        <ListBox x:Name="LIst_covid19" Margin="90,150,83,10"/>
+    </Grid>
+</Window>
